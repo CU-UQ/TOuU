@@ -87,5 +87,5 @@ su = ones(params.numvar,1);
 params.zini = 1;
 params.gini = 1;
 
-% sequential convex program        
+% stochastic gradient descent algorithm
 [params,s,obj_hist] = adam(params.eval_name, params,s,optiter,step_size,sl,su);
