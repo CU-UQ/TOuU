@@ -110,3 +110,5 @@ To view the optimized structure go to the paraview_save_path and open the paravi
 
 Matlab also saves the params structure with objective and constraint histories in adam_output_block_sg.exo.mat inside the for_simultaneous_runs folder. 
 
+## NOTE: ##
+GCMMA codes can be obtained by contacting Prof. K. Svanberg (KTH Royal Institute of Technology).
