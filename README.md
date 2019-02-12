@@ -35,8 +35,8 @@ Also, use mkdir if needed to create those directories.
 * su : Upper bounds for optimization variables  
 
 ## Functions used:  
-### *adam* ###   
-Adam optimizer is implemented inside this function.  
+### *adam*, *adagrad* ###   
+Adam and AdaGrad optimizers are implemented inside this function.  
 *Inputs:*   
   * params.eval_name,  
   * params,s,optiter,  
