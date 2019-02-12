@@ -36,7 +36,7 @@ Also, use mkdir if needed to create those directories.
 
 ## Functions used:  
 ### *adam*, *adagrad* ###   
-Adam and AdaGrad optimizers are implemented inside this function.  
+Adam and AdaGrad optimizers are implemented.  
 *Inputs:*   
   * params.eval_name,  
   * params,s,optiter,  
