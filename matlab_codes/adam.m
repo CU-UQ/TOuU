@@ -18,13 +18,11 @@ function [params,xMat,obj_hist] = adam(func, params, x0, nIter, stepSize, lower_
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-% parmas.obj_con_lambda*con_functional controls balance of objective and constraint violation
-
+% Adam algorithm parameters
 beta1 = 0.9;
 beta2 = 0.999;
 
-% Store default value for `epsilon` if there are only 5 input arguments
+% Use machine precision eps
 epsilon = sqrt(eps);
 
 % Store the number of decision variables
