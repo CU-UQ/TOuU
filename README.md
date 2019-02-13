@@ -1,6 +1,7 @@
 # TOuU (Topology Optimization under Uncertainty) 
 
-We propose the use of stochastic gradient descent algorithms for Topology optimization under uncertainty (TOuU) in (citation).  To illustrate the approach, we consider a 3D design problem with a structure being subject to uncertain loading and resting on uncertain bedding. The non-design domain is occupied by a material with random stiffness and represents an uncertain bedding. This non-design domain is clamped at the bottom face. At the center of the top face of the design domain, a point load with random  direction is applied. The performance measure of the objective function is the strain energy, and the only constraint is to ensure that the mass-ratio of the structure is no more than 15% of the maximum design mass.
+We propose the use of stochastic gradient descent algorithms for Topology optimization under uncertainty (TOuU) in (citation).  To illustrate the approach, we consider a 3D design problem with a structure being subject to uncertain loading and resting on uncertain bedding. The non-design domain is occupied by a material with random stiffness and represents an uncertain bedding. This non-design domain is clamped at the bottom face. At the center of the top face of the design domain, a point load with random  direction is applied. The performance measure of the objective function is the strain energy, and the only constraint is to ensure that the mass-ratio of the structure is no more than 15% of the maximum design mass. 
+
 
 ## block_launch.m  
 This file sets up the problem, initializes the variables, and calls the Adam optimizer. 
@@ -111,4 +112,5 @@ To view the optimized structure go to the paraview_save_path and open the paravi
 Matlab also saves the params structure with objective and constraint histories in adam_output_block_sg.exo.mat inside the for_simultaneous_runs folder. 
 
 ## NOTE: ##
-GCMMA codes can be obtained by contacting Prof. K. Svanberg (KTH Royal Institute of Technology).
+GCMMA codes can be obtained by contacting Prof. K. Svanberg (KTH Royal Institute of Technology).  
+For a Python version of the SGD algorithms see https://github.com/CU-UQ/SGD
